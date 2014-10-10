@@ -27,6 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     添加书籍： <br>
     <%
+    	System.out.print("There is B1.");
     	String isbn = request.getParameter("ISBN");
     	String title = request.getParameter("Title");
     	String authorid = request.getParameter("AuthorID");
