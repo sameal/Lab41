@@ -26,6 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <%
+    	System.out.print("B1");
     	String delet="";
 		delet = request.getParameter("Delet");
     	out.print(delet+"<br>");
