@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</h3> 
 	<%
 		
-		System.out.print("B1");
+		System.out.print("B2");
 		String authorname;
 		authorname = request.getParameter("AuthorName");
 		out.print("作者："+authorname+"<br>");
